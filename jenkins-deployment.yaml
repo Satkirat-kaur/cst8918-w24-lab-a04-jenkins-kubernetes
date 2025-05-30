@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: jenkins
-        image: jenkins-controller-kubernetes:1.0
+        image: jenkins/jenkins:lts
         ports:
         - containerPort: 8080
         volumeMounts:
